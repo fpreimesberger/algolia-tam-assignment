@@ -43,7 +43,7 @@ class Autocomplete {
 
    /**
    * @private
-   * Sends data from products.json (which was manually chunked into 4 smaller files) off to Algolia
+   * Sends data from products.json (which was manually chunked into 4 smaller files) to Algolia
    * @return {void}
    */
   _sendData() {
