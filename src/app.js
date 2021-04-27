@@ -1,3 +1,4 @@
+// Import Autocomplete component
 import Autocomplete from './components/autocomplete';
 
 class SpencerAndWilliamsSearch {
