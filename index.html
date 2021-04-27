@@ -23,12 +23,24 @@
       </div>
       <div class="header__searchbox-container">
         <div class="header__searchbox" id="searchbox"></div>
+
         <div class="autocomplete">
-          <div class="autocomplete_container">
-            <div class="autocomplete__hits" id="autocomplete-hits">
+          <div class="column" id="products">
+            <h2>Products</h2>
+            <div class="autocomplete_container">
+              <div class="autocomplete__hits" id="autocomplete-hits">
+              </div>
+            </div>
+          </div>
+          <div class="column" >
+            <h2>Suggestions</h2>
+            <div class="products_container" id="suggestions">
+              <div class="products" id="products">
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </header>
@@ -37,6 +49,7 @@
   </div>
 
   <script src="./src/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 </body>
 
 </html>

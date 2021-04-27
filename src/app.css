@@ -63,9 +63,14 @@
   border-radius: 2px 2px 0 0;
 }
 
+.column {
+  width: 50%;
+  float: left;
+}
+
 /* Autocomplete */
 .autocomplete {
-  display: none;
+  display: flex;
   background-color: #fff;
   padding: 20px;
   z-index: 99;
@@ -75,7 +80,11 @@
   border: 1px solid #252321;
   border-top: 0;
 }
-
+.autocomplete:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .autocomplete_container {
   display: flex;
   width: 100%;

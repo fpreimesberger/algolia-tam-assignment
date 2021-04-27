@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "algoliasearch": "^3.35.1",
-    "instantsearch.js": "^4.0.0"
+    "instantsearch.js": "^4.0.0",
+    "stream-json": "^1.7.1"
   }
 }
