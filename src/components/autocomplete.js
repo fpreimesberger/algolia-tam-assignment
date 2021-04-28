@@ -20,7 +20,7 @@ class Autocomplete {
    */
   constructor() {
     this._registerClient();
-    //this._sendData();
+    this._sendData();
     this._registerWidgets();
     this._startSearch();
   }
